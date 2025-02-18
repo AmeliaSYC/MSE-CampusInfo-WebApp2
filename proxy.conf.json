@@ -1,0 +1,14 @@
+{
+    "/api": {
+      "target": "https://localhost:4200",
+      "secure": false,
+      "pathRewrite": {"^/api": ""},
+      "logLevel": "info",
+      "changeOrigin": true,
+      "headers": {
+        "User-Agent": "MTCampusInfo",
+        "Accept": "application/json"
+      }
+    }
+  }
+  
